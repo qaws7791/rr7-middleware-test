@@ -1,0 +1,104 @@
+diff --git a/dist/development/chunk-PVWAREVJ.mjs b/dist/development/chunk-PVWAREVJ.mjs
+index 0fa389aec09b99f83794258fb73f3d19e659d881..b5548ad25df348ed89e4a0c5517327d3971aaa2b 100644
+--- a/dist/development/chunk-PVWAREVJ.mjs
++++ b/dist/development/chunk-PVWAREVJ.mjs
+@@ -373,7 +373,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/development/chunk-ZO66TDGB.js b/dist/development/chunk-ZO66TDGB.js
+index 7c90497679a67f98050755c516ce44f104fead47..b683ab77c2f5590f2e88b55ef26b9c6f6925928f 100644
+--- a/dist/development/chunk-ZO66TDGB.js
++++ b/dist/development/chunk-ZO66TDGB.js
+@@ -373,7 +373,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/development/index-react-server.js b/dist/development/index-react-server.js
+index fe33efc147552bdb6c70621d03a7efe308320432..d99a5950b96e53edd8af635686ec5015cf56d88f 100644
+--- a/dist/development/index-react-server.js
++++ b/dist/development/index-react-server.js
+@@ -119,7 +119,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/development/index-react-server.mjs b/dist/development/index-react-server.mjs
+index 7f7f6a6815a4e634cdc0d55d088c3cedf5a72151..53ccb390104d295ca7c7879898f9db9e33329342 100644
+--- a/dist/development/index-react-server.mjs
++++ b/dist/development/index-react-server.mjs
+@@ -98,7 +98,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/production/chunk-REDRD2MB.mjs b/dist/production/chunk-REDRD2MB.mjs
+index 9e8c9698c6e0005d2486c47d910f6be4be7bc38e..e735d853d4fc0262171c1b4ae400a70c0b9e13b6 100644
+--- a/dist/production/chunk-REDRD2MB.mjs
++++ b/dist/production/chunk-REDRD2MB.mjs
+@@ -373,7 +373,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/production/chunk-Z56HUDN5.js b/dist/production/chunk-Z56HUDN5.js
+index 2e02bfb41805ba28e09f3b71733727992d889af2..bb373b554a5fa1cb7faa0d00cb7cebaae75cfb1f 100644
+--- a/dist/production/chunk-Z56HUDN5.js
++++ b/dist/production/chunk-Z56HUDN5.js
+@@ -373,7 +373,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/production/index-react-server.js b/dist/production/index-react-server.js
+index fe33efc147552bdb6c70621d03a7efe308320432..d99a5950b96e53edd8af635686ec5015cf56d88f 100644
+--- a/dist/production/index-react-server.js
++++ b/dist/production/index-react-server.js
+@@ -119,7 +119,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
+diff --git a/dist/production/index-react-server.mjs b/dist/production/index-react-server.mjs
+index 7f7f6a6815a4e634cdc0d55d088c3cedf5a72151..53ccb390104d295ca7c7879898f9db9e33329342 100644
+--- a/dist/production/index-react-server.mjs
++++ b/dist/production/index-react-server.mjs
+@@ -98,7 +98,7 @@ var unstable_RouterContextProvider = class {
+    */
+   constructor(init) {
+     __privateAdd(this, _map, /* @__PURE__ */ new Map());
+-    if (init) {
++    if (init && Symbol.iterator in Object(init)) {
+       for (let [context, value] of init) {
+         this.set(context, value);
+       }
