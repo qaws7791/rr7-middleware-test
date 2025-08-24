@@ -11,7 +11,9 @@ import type { Route } from "./+types/root";
 import stylesheet from "./app.css?url";
 import { sessionMiddleware } from "src/middlewares";
 
-export const unstable_middleware = [sessionMiddleware];
+export const unstable_middleware: Route.unstable_MiddlewareFunction[] = [
+  sessionMiddleware,
+];
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
